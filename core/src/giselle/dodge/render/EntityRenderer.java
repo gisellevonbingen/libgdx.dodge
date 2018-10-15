@@ -28,7 +28,7 @@ public class EntityRenderer
 
 		for (int i = 0; i < entities.size(); i++)
 		{
-			Entity entity = entities.get(i);as
+			Entity entity = entities.get(i);
 			RenderEntity.renderEntity(batch, entity);
 		}
 
